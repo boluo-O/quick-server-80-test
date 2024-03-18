@@ -9,4 +9,4 @@ http.createServer((req, res) => {
 
     res.statusCode = 200
     res.end("server start success on 80 port")
-}).listen(8088, "0.0.0.0")
+}).listen(80, "0.0.0.0")
